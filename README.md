@@ -1,10 +1,10 @@
 # sms-service
-阿里云和activeMQ实现短信的验证功能
+阿里云和activeMQ实现短信验证微服务功能
 
 application.properties中修改：
 
-server.port=9003
-spring.activemq.broker-url=tcp://localhost:61616
+### server.port=9003
+spring.activemq.broker-url=tcp://localhost:61616</br>
 accessKeyId=xxxx
 accessKeySecret=xxxx
 
